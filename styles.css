@@ -1,0 +1,67 @@
+/* */
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+.containercalculator {
+  width: 220px;
+  height: 280px;
+  margin: 0 auto;
+  background-color: black;
+  padding: 10px;
+  border-radius:4px;
+}
+/* */
+.screencalculator {
+  background-color: rgb(127, 221, 255);
+  width: 180px;
+  height: 80px;
+  margin: 5px auto;
+  text-align: center;
+  font-family: "Calculator", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+/* */
+.containeroperationsandnumbers {
+  background-color: rgb(104, 108, 110);
+  width: 180px;
+  height: 170px;
+  margin: auto;
+  align-items: flex-start; /*Why the fuck this don't work and how to apply the height to make it work*/
+  justify-content: center;
+  display: flex;
+}
+/* */
+.leftside {
+ 
+  display: flex;
+  flex-direction: column;
+  height:94px;
+}
+.number {
+  width: 35px;
+  height: 35px;
+}
+.row1 {
+  display: flex;
+}
+.row2 {
+    display: flex; }
+    .row3 {
+        display: flex; }
+/* */
+.rightside {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 23px;
+  
+}
+.row4 {display: flex;}
+.number0{width:70px;}
+.operation{width:35px;
+  height: 32px;}
+  .clearbutton{width:70px;}
+  
