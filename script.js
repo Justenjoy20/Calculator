@@ -77,3 +77,6 @@ equal.addEventListener(`click`, () => {screen.innerHTML = `=`});
 clear.addEventListener(`click`,() => {screen.innerHTMl = ``/*this one don't work */})}
 
 displayScreen ()
+// Storing the display value into a variable
+let tracker = ``
+
